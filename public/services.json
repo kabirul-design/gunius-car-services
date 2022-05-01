@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Car Wash",
+        "description": "this car wash is full free in the garage",
+        "price": 100,
+        "img": "https://i.ibb.co/4RRbWp7/repair1.png"
+    },
+    {
+        "id": 2,
+        "name": "Car Glasses",
+        "description": "The car dending is so cold in my house",
+        "price": 100,
+        "img": "https://i.ibb.co/V37mXC9/repair2.png"
+    },
+    {
+        "id": 3,
+        "name": "Car Pushing",
+        "description": "The car dending is so cold in my house",
+        "price": 100,
+        "img": "https://i.ibb.co/V37mXC9/repair2.png"
+    },
+    {
+        "id": 4,
+        "name": "Car Wash",
+        "description": "this car wash is full free in the garage",
+        "price": 100,
+        "img": "https://i.ibb.co/4RRbWp7/repair1.png"
+    },
+    {
+        "id": 5,
+        "name": "Car Water",
+        "description": "this car wash is full free in the garage",
+        "price": 100,
+        "img": "https://i.ibb.co/4RRbWp7/repair1.png"
+    },
+    {
+        "id": 6,
+        "name": "Car Polish",
+        "description": "this car wash is full free in the garage",
+        "price": 100,
+        "img": "https://i.ibb.co/4RRbWp7/repair1.png"
+    }
+]
