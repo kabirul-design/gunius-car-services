@@ -5,6 +5,7 @@ import './Register.css';
 import auth from '../../firebase.init';
 import SocialLogin from '../Login/SocialLogin/SocialLogin';
 import { async } from '@firebase/util';
+import Loading from '../Shared/Loading/Loading';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
@@ -17,12 +18,13 @@ const Register = () => {
 
       const [updateProfile, updating, error1] = useUpdateProfile(auth);
 
-      
-
     const navigate = useNavigate();
 
     const navigateLogin = () =>{
         navigate('/login');
+    }
+    if(loading || updating){
+        return <Loading></Loading>
     }
 
     if(user){
